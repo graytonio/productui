@@ -1,0 +1,16 @@
+[package]
+name = "productui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+color-eyre = "0.6.3"
+config = "0.15.9"
+crossterm = {version = "0.28.1", features = ["event-stream"]}
+octocrab = "0.43.0"
+open = "5.3.2"
+ratatui = "0.29.0"
+serde = {version = "1.0.218", features = ["derive"]}
+tokio = { version = "1.43.0", features = ["rt-multi-thread", "macros"] }
+tokio-stream = "0.1.17"
+xdg = "2.5.2"

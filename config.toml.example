@@ -1,0 +1,15 @@
+[github]
+github_token = "<TOKEN>"
+labels = [
+    "urgent",
+]
+repos = [
+    [ "graytonio", "productui"],
+]
+filters = [
+    "ReviewRequested",
+    "Mentions",
+    "Labels",
+    "Assigned",
+    "Created",
+]
